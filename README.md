@@ -1,38 +1,26 @@
+# Project: Exploring Patterns with Python
 
-# Data Exploration Project
+## Description
+This project contains three Jupyter notebooks designed to introduce learners to Python-based data visualisation and setup for effective data analysis workflows.
 
-This repository contains resources for an Exploratory Data Analysis (EDA) activity using Jupyter Notebooks and Python. The project aims to guide you through the basics of EDA, including setting up a virtual environment, using Pandas for data manipulation, and analysing additional features in datasets.
+### Notebooks Included:
+1. **Data Visualisation Challenges Activity**:
+   - Engage in activities that challenge your understanding of data visualisation principles and best practices.
+2. **Seaborn Activity**:
+   - Learn how to create beautiful and insightful visualisations using the Seaborn library.
+3. **Virtual Environment and Pandas Setup**:
+   - A step-by-step guide to setting up a Python virtual environment and exploring basic data manipulation with Pandas.
 
-## Project Overview
+## Requirements
+- Python 3.8 or above
+- pip (Python package installer)
+- Jupyter Notebook
 
-1. **Additional Features Analysis**:
-   File: `Additional_Features_Analysis.ipynb`
-   - Focuses on the exploration of additional dataset features to uncover insights.
+## Learning Objectives
+- Understand how to create effective visualisations using Seaborn.
+- Apply best practices for setting up Python virtual environments and using Pandas for data analysis.
+- Practise solving common visualisation challenges with practical activities.
 
-2. **Data Exploring Activity**:
-   File: `Data_Exploring_Activity.ipynb`
-   - Provides a structured activity to practice data exploration techniques.
-
-3. **Report**:
-   File: `Report.ipynb`
-   - Provides a Sales Trends and Insights.
-
-4. **Virtual Environment and Pandas Setup**:
-   File: `Virtual_Environment_and_Pandas_Setup.ipynb`
-   - Offers a step-by-step guide to setting up a virtual Python environment and installing necessary libraries.
-
-## Prerequisites
-
-- Python 3.x installed
-- Jupyter Notebook or Jupyter Lab installed
-- Basic understanding of Python programming
-
-## How to Use This Repository
-
-1. Clone the repository to your local machine.
-2. Navigate to the directory containing the project files.
-3. Follow the setup instructions in the `Virtual_Environment_and_Pandas_Setup` notebook.
-4. Open the notebooks in Jupyter and follow the instructions provided for each activity.
-
----
-
+## Getting Started
+1. Clone this repository to your local machine.
+2. Follow the instructions in `instructions.md` to set up your environment and run the notebooks.
