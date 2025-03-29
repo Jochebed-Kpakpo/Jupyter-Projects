@@ -1,61 +1,48 @@
 
-# Data Cleaning Techniques with Visualisations
+# Data Cleaning and Manipulation Project
 
-This Jupyter Notebook provides a step-by-step guide to applying data cleaning techniques, such as identifying and handling missing values, outliers, and inconsistent data formats. It includes visualisations to help you understand the impact of cleaning on the dataset.
+This project contains practical activities and examples designed to teach data cleaning and manipulation techniques using Python and Pandas.
 
-## Features
-- **Identify and Handle Missing Values**: Learn techniques to locate missing data and decide on the best strategy to handle them.
-- **Outlier Detection and Treatment**: Understand how to identify and handle outliers in a dataset.
-- **Standardising and Normalising Data**: Apply methods to bring consistency to data for analysis.
-- **Visualising Data Cleaning**: Use visual tools to evaluate the effect of cleaning techniques.
+## Files in the Project
 
-## Prerequisites
-- Python 3.7 or later
-- Jupyter Notebook
-- Installed libraries: pandas, matplotlib, seaborn
+1. **Data_Cleaning_and_Manipulation_Activity.ipynb**  
+   - A Jupyter Notebook with guided exercises for cleaning and preparing datasets.  
+   - Covers topics such as handling missing values, and standardising data formats.
 
-## How to Use
-1. **Download the Notebook**:
-   Save the `Data_Cleaning_Techniques_with_Visualisations.ipynb` file to your local machine.
+2. **Virtual_Environment_and_Pandas_Setup.ipynb**  
+   - A Jupyter Notebook providing instructions on setting up a virtual environment and installing Pandas.  
+   - Includes steps to create a clean workspace for your Python projects.
 
-2. **Open in Visual Studio Code**:
-   - Install the Python extension for Visual Studio Code if not already installed.
-   - Open the notebook file in VS Code.
-   - Ensure your Python environment has the required libraries installed.
 
-3. **Run the Notebook**:
-   Execute each cell to follow the steps for data cleaning and visualisations.
+## Getting Started
 
-## Requirements
+### Prerequisites
+- Python 3.8 or higher installed on your system.
+- Jupyter Notebook.
+- Basic knowledge of Python and Pandas.
 
-####  Virtual Environment and Pandas Setup Notebook
-Create a virtual environment to keep project dependencies separate. 
-In your terminal, navigate to your project folder and type: python -m venv .venv
-``` bash
-python -m venv .venv
-```
+### Installation
 
-To activate it:
-Windows: .venv\Scripts\activate
-macOS/Linux: source .venv/bin/activate
+1. Create a virtual environment:
+   ```bash
+   python -m venv env
+   ```
+2. Activate the environment:
+   - On Windows:
+     ```bash
+     .\env\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source env/bin/activate
+     ```
+3. Install dependencies:
+   ```bash
+   pip install pandas openpyxl ipykernel
+   ```
 
-Once activated, you’ll see the environment name in your terminal prompt.
 
-Make sure you have the following Python libraries installed:
-- pandas
-- matplotlib
-- seaborn
+## Project Highlights
 
-You can install these using pip:
-```bash
-pip install pandas matplotlib seaborn ipykernel 
-```
-To select the Kernel:
-Click the kernel dropdown (top-right of the notebook) and select the virtual environment `.venv.`
-
-## File Structure
-- **Data Input**: Load and explore the dataset.
-- **Missing Values**: Techniques to handle missing data.
-- **Outlier Detection**: Identifying and addressing outliers.
-- **Data Standardisation and Normalisation**: Steps to scale and clean data for analysis.
-- **Visualisations**: Charts to compare data before and after cleaning.
+- **Data Cleaning Techniques:** Learn to handle missing values, duplicates, and inconsistent formats.
+- **Virtual Environment Setup:** Create a controlled environment for data analysis projects.
